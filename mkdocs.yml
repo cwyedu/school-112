@@ -2,6 +2,7 @@ site_name: 揚揚教學網 -- 112學年
 theme:
   name: material
   features:
+    - navigation.indexes
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.sections
@@ -74,13 +75,17 @@ plugins:
 
 # Page tree
 nav:
-  - Home: index.md
+  - 首頁: index.md
   - 檢定:
-      - cert/index.md
-      - 丙級:
-          - 丙級說明及解題: cert/cert3/cert3.md
-      - 乙級:
-          - 乙級說明及解題: cert/cert2/cert2.md
-          - 題組五: cert/cert2/resolve-5.md
-          - 題組四: cert/cert2/resolve-4.md
-  - 程式設計: programming/
+    - cert/index.md
+    - 丙級:
+      - 丙級說明及解題: cert/cert3/cert3.md
+    - 乙級:
+      - 乙級說明及解題: cert/cert2/cert2.md
+      - 題組五: cert/cert2/resolve-5.md
+      - 題組四: cert/cert2/resolve-4.md
+  - 程式設計:
+    - programming/index.md
+    - App Inventor: 
+      - programming/app_inventor/index.md
+      - 開發環境: programming/app_inventor/env.md
