@@ -89,3 +89,5 @@ nav:
     - App Inventor: 
       - programming/app_inventor/index.md
       - 開發環境: programming/app_inventor/env.md
+    - APCS:
+      - programming/apcs/index.md
