@@ -84,6 +84,7 @@ nav:
       - 乙級說明及解題: cert/cert2/cert2.md
       - 題組五: cert/cert2/resolve-5.md
       - 題組四: cert/cert2/resolve-4.md
+    - TQC: cert/tqc.md
   - 程式設計:
     - programming/index.md
     - App Inventor: 
