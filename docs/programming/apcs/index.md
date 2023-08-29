@@ -26,6 +26,3 @@
     - [教學影片 YouTube 撥放清單](https://youtube.com/playlist?list=PLpmg1QLbgMuSIDOgOcwf0Fbbn2ZDR7s-X)
     - [講義所在位置](https://drive.google.com/drive/folders/1mnVdO2LHq7e4vesn6pt_R0-S6YWtz4Q4?usp=sharing)
 - [PythAPCS45](https://www.youtube.com/playlist?list=PLpmg1QLbgMuRQXHRkX9iDHyAVIW1D6OJF)：也是吳邦一教授錄製的免費的教學影片，內容為APCS實作四五級的考古題Python題解。
-
-
-

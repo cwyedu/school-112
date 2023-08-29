@@ -92,3 +92,7 @@ nav:
       - 開發環境: programming/app_inventor/env.md
     - APCS:
       - programming/apcs/index.md
+  - 資處二甲:
+    - dp111/course_counseling.md
+    - 上課日誌:
+      - dp111/log/112-1-week01.md
