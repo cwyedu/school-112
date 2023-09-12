@@ -94,5 +94,6 @@ nav:
     - APCS:
       - programming/apcs/index.md
   - 資處二甲:
-    - dp111/course_counseling.md
-    - dp111/112-1-dp111-log.md
+      - dp111/index.md
+      - dp111/course_counseling.md
+      - dp111/112-1-dp111-log.md
