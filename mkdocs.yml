@@ -91,6 +91,7 @@ nav:
       - programming/app_inventor/index.md
       - 開發環境: programming/app_inventor/env.md
       - programming/app_inventor/calculator.md
+      - programming/app_inventor/pair_up_fruits.md
     - APCS:
       - programming/apcs/index.md
     - Bebras: programming/bebras.md
