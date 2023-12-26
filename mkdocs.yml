@@ -76,6 +76,7 @@ plugins:
 # Page tree
 nav:
   - 首頁: index.md
+  - 課諮: course_consultation.md
   - 檢定:
     - cert/index.md
     - 丙級:
