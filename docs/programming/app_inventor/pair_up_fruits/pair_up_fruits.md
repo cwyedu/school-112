@@ -162,3 +162,34 @@ graph TB
 
 - 翻牌 (按鈕1、按鈕2)
 - 測試程式結束
+
+## 將翻牌通用化
+
+觀察一下，「按鈕1」和「按鈕2」有什麼不同的地方
+
+![Alt text](0104_b1b2.png)
+
+一步一步調止，最應如下：
+
+![Alt text](0104_flip_function.png)
+
+16 個按鈕呼叫「翻牌」程序
+
+![Alt text](0104_general_b1.png)
+
+閃動計時器也要改一下：
+
+![Alt text](0104_flash_timer.png)
+
+測試一下，結果有下列錯誤：
+
+![Alt text](0104_button_error.png)
+
+為什麼會有錯？因為翻牌的按鈕太快被設成0了，改成如下：
+
+![Alt text](0104_debug.png)
+
+
+## 作業檢查點
+
+- 可翻 16 張牌
