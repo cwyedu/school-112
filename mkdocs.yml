@@ -98,8 +98,10 @@ nav:
     - Bebras: programming/bebras.md
   - 資處二甲:
       - dp111/index.md
-      - dp111/course_counseling.md
+      # - dp111/course_counseling.md
+      - dp111/112_2_dp111_log.md
       - dp111/112_1_dp111_log.md
   - 綜高三乙:
       - bs110/index.md
+      - bs110/112_2_bs110_log.md
       - bs110/112_1_bs110_log.md
