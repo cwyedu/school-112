@@ -17,3 +17,38 @@
 
 
 程式：顯示所有對應的金額
+
+![Alt text](order_0229_1.png)
+
+!!! warning
+
+    記得，那幾個總額的文字要設為 0
+
+## 資料寫入
+
+想一想，你要將資料寫到那？這裡我們使用 google 表單
+
+- 請先設計一個 google 表單如下圖：
+![Alt text](google_form1.png)
+- 設定：
+![Alt text](google_form2.png)
+- 在畫面編排中，插入「通訊」->「網路」
+- 在程式設計中，插入 「當按鈕被點選」，加人網路網址
+  
+網址設定：
+
+- 取得預先填入網址
+![Alt text](image.png)
+- 拷貝網址：如「https://docs.google.com/forms/d/1gQVJT4NQx3AxPV55dU7vkJTw9ApoBLQ/prefill」, 貼到記事本
+- 將「prefill」改成 「formResponse?」
+- 填入一些資料，按取得連結->複製連結如圖：
+![Alt text](image-1.png)
+- 將網址貼到記事本，改成如下圖，3即是我們要的資料
+![Alt text](image-2.png)
+- 把這些東西加到網路中的網址
+- 最後如下圖
+![Alt text](order_0229_2.png)
+
+- 測試你的手機是不是能夠填入資料，送出時會不會在 google 表單中新增資料
+- 每次送出，就將單號加1，並清除其它欄位值
+![Alt text](order_0229_3.png)
