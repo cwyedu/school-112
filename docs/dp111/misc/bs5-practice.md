@@ -47,3 +47,87 @@
 ![alt text](b5-practice-2.png)
 
 我就查了一下 `nowrap`，發現在 bootstrap 中有這個 class：[文字 (Text) · Bootstrap 5 繁體中文文件 - 六角學院 v5.1](https://bootstrap5.hexschool.com/docs/5.1/utilities/text/#text-wrapping-and-overflow)，於是，我的 `h3` 就可以加入 `text-nowrap`，但是對齊很醜，加個 `me-3`，換下面很醜，再加個 `mb-3`。
+
+
+## 快轉、省略一下
+
+```html
+
+    <!-- Contact & Map -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4 d-flex align-items-center">
+          <div class="col-md">
+            <h2 class="text-center mb-4">聯絡資訊</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">位置：</span> 行政大樓 4 樓
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">電話：</span> (04)8962132#366
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">電子郵件：</span> elvs366 at
+                elvs.chc.edu.tw
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">客訴專線：</span> (04)8962132#333
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.6757543596577!2d120.37490067557854!3d23.901113878567852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34694d3ad81a0961%3A0xf98739f6648f4852!2z5ZyL56uL5LqM5p6X6auY57Sa5bel5ZWG6IG35qWt5a245qCh!5e0!3m2!1szh-TW!2stw!4v1716303221294!5m2!1szh-TW!2stw"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">
+          Copyleft <span class="copyleft">&copy;</span> 2024 資料處理科
+        </p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+```
+
+其中 copyleft 的符號是水平180鏡射翻轉的，請加入 css，怎麼加入？
+
+```css
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
+```
+
+## 另一個網頁：科內成員
+
+- 複製 index.html 為 members.html，留下導覽列和頁尾
+- 加入 4 個成員的卡片
+- 加入 `section`，`p-5 bg-primary mt-5`
+- 加入 `container`
+- 加入一個 `h5`，文字置中、文字白色
+- 加入一個 `p` 說明文字，屬性自己設定
+- **重點**來了哦，加入一個 `row`，`g-4` [網格系統 (Grid system) · Bootstrap 5 繁體中文文件 - 六角學院 v5.1](https://bootstrap5.hexschool.com/docs/5.1/layout/grid/)、[Gutters · Bootstrap 5 繁體中文文件 - 六角學院 v5.1](https://bootstrap5.hexschool.com/docs/5.1/layout/gutters/)
+- 這個 `row` 裡面有 4 個 `div`，`col-md-6 col-lg-3`
+- 在 col 裡面放 **卡片** [卡片 (Cards) · Bootstrap 5 繁體中文文件 - 六角學院 v5.1](https://bootstrap5.hexschool.com/docs/5.1/components/card/)
+- 接著，不會了，我們來學一下怎麼問 ChatGPT 這類的 AI 助理。
+
+
+## 上傳到伺服器
+
+- 你可以上傳到以前教過的 github
+- 今天再講一個 firebase
