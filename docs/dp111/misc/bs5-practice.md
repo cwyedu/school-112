@@ -130,4 +130,4 @@
 ## 上傳到伺服器
 
 - 你可以上傳到以前教過的 github
-- 今天再講一個 firebase
+- firebase
